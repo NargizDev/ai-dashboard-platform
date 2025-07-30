@@ -15,8 +15,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ai-dashboard-platform/analytics-dashboard": ["libs/features/src/index.ts"],
+      "@ai-dashboard-platform/core/access-control": ["libs/core/access-control/src/index.ts"],
+      "@ai-dashboard-platform/core/auth": ["libs/core/auth/src/index.ts"],
       "@ai-dashboard-platform/core/http": ["libs/core/http/src/index.ts"],
-      "@ai-dashboard-platform/core/auth": ["libs/core/auth/src/index.ts"]
+      "@ai-dashboard-platform/ui": ["libs/ui/src/index.ts"],
+      "@ai-dashboard-platform/user": ["libs/domains/src/index.ts"]
     }
   },
   "angularCompilerOptions": {
