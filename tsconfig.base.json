@@ -15,8 +15,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ai-dashboard-platform/core/http": ["libs/core/http/src/index.ts"]
+      "@ai-dashboard-platform/core/http": ["libs/core/http/src/index.ts"],
+      "@ai-dashboard-platform/core/auth": ["libs/core/auth/src/index.ts"]
     }
+  },
+  "angularCompilerOptions": {
+    "strictTemplates": true
   },
   "exclude": ["node_modules", "tmp"]
 }
